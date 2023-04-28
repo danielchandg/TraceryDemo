@@ -25,5 +25,5 @@ function generate_territories(){
   }
   result += "</ol>";
   console.log(result)
-  io.write_into_element(result, "territories")
+  document.getElementById("territories").innerHTML = result;
 }
