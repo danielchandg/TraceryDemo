@@ -1,0 +1,6 @@
+body {
+  color: white;
+  background-color: black;
+}
+#next { background:none; border:none; cursor:pointer; color:white; }
+#next:hover {text-decoration:underline; }

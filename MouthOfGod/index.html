@@ -3,23 +3,21 @@
 
   <script src="jquery-1.11.2.min.js"></script>
   <script src="tracery.min.js"></script>
-  <script src="input_output.js"></script>
   <script src="grammar.js"></script>
-  <script src="territories.js"></script>
+  <script src="firewatch.js"></script>
+  <link rel="stylesheet" href="styles.css">
   
   </head>
   <body>
   
-  <pre>needs a button that runs a function. the function should use tracery and pull json from the following block and generate 23 territories</pre>
+  <br>
   
-  <br> 
-  
-  
-  
-  <button onclick="generate_territories()"> Generate Territories </button>
-  
-  <div id="territories"> </div>
-  
+  <div id="story">
+    <h1>Firewatch Stories</h1>
+    <p></p>
+  </div>
+
+  <button id="next" onclick="init()">Start</button>
   
   </body>
   </html>
