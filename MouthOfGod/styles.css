@@ -1,6 +1,36 @@
 body {
   color: white;
   background-color: black;
+  text-align: center;
+  font-size: xx-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 50%;
+  padding-left: 25%;
+  padding-top: 5%;
 }
-#next { background:none; border:none; cursor:pointer; color:white; }
+#next {
+  background:none;
+  border:none;
+  cursor:pointer;
+  color: #ff6a00;
+  font-size: xx-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 600px;
+}
 #next:hover {text-decoration:underline; }
+#next2 {
+  background:none;
+  border:none;
+  cursor:pointer;
+  color: #ff6a00;
+  font-size: xx-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 290px;
+}
+#next2:hover {text-decoration:underline; }
+#container{
+  text-align: center;
+}
+button{
+  display: inline-block;
+}
